@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイページ</title>
+    <link rel="stylesheet" href="css/mypage.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/header.js"></script>
+</head>
+
+<body>
+
+    <div id= "header"></div>
+
+    <div class="register-container">
+        <div class="form-container">
+        
+            <div class="form-group">
+                <label for="name">お名前<br>NAME</label>
+                <p id="name"></p>
+            </div>
+        
+            <div class="form-group">
+                <label for="gender">性別<br>GENDER</label>
+                <p id="gender"></p>
+            </div>
+        
+            <div class="form-group">
+                <label for="birthday">生年月日<br>Birthday</label>
+                <p id="birthday"></p>
+            </div>
+        
+            <div class="form-group">
+                <label for="email">メール<br>email</label>
+                <p id="email"></p>
+            </div>
+
+            <form action="logout_act.php" method="post">
+            <button type="submit" class="logout-button">ログアウト / Logout</button>
+        </div>
+    </div>
+    
+    <script src="js/mypage.js"></script>
+
+</body>
+</html>

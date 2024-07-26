@@ -1,0 +1,36 @@
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    z-index: 1000;
+  }
+  
+  #logo {
+    width: 300px;
+    height: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: black;
+  }
+  
+  nav a:hover {
+    color: #db4a2b; /* マウスオーバー時の色 */
+  }
